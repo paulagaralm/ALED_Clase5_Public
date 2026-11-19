@@ -16,12 +16,12 @@ public class Alumno implements Comparable<Alumno> {
 			
 			boolean changed = false;
 			for (int i = 0; i < arr.length - 1 - pasada; i++) {
-				if (arr[i] > arr[i + 1]) {
+				//if (arr[i] > arr[i + 1]) { no se pueden ordenar Alumnos, habrá que seguir un criterio concreto
 					Alumno tmp = arr[i];
 					arr[i] = arr[i + 1];
 					arr[i + 1] = tmp;
 					changed = true;
-				}
+				//}
 			}
 			if (!changed) {
 				System.out.println("Pasada nº: " + (pasada + 1));
