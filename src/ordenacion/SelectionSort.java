@@ -2,7 +2,7 @@ package ordenacion;
 
 import java.util.Arrays;
 
-public class SelectionSort {
+public class SelectionSort { //O(n^2)
 	
 	public static int[] ordenar(int[] arr) {
 		
