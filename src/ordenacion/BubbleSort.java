@@ -3,7 +3,7 @@ package ordenacion;
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class BubbleSort {
+public class BubbleSort { //O(n^2), pero si está ordenado es O(n)
 	
 	public static int[] ordenar(int[] arr) {
 		
